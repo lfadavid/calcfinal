@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-from annotated_text import annotated_text
 
 def carregar_dados():
     df = pd.read_excel("Tabela_Spice.xlsx")
